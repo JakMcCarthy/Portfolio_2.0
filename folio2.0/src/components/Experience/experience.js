@@ -28,7 +28,7 @@ function Experience() {
                 <p>"Experienced with a variety of languages, platforms, frameworks, and content management systems</p>
                 </li>
                 <li>
-                    <p>Collaborated with small teams of student designers to build a multi page API based website and a Issue Tracker content management system</p>
+                    <p>Collaborated with small teams of student designers to build a multi page React website for a social media task tracker.</p>
                 </li>
                 </ul>
             </VerticalTimelineElement>
@@ -59,14 +59,14 @@ function Experience() {
                 iconStyle={{ background: '#BE7220', color: '#fff' }}
                 icon={<i class="fa-solid fa-graduation-cap work-icons" />}
             >
-                <h3 className="vertical-timeline-element-title">Gateway Community College</h3>
-                <h4 className="vertical-timeline-element-subtitle">New Haven, CT</h4>
+                <h3 className="vertical-timeline-element-title">Tunxis Community College</h3>
+                <h4 className="vertical-timeline-element-subtitle">Farmington, CT</h4>
                 <ul>
                 <li>
-                    <p>Studied Computer Science</p>
+                    <p>Associates in Science</p>
                 </li>
                 <li>
-                    <p>Learned computer programming languages such as Java and C++</p>
+                    <p>To close out degree to transition into learning code full-time</p>
                 </li>
                 </ul>
             </VerticalTimelineElement>

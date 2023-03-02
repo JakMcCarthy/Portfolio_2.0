@@ -1,51 +1,42 @@
 import React from 'react';
-import img_ftm from '../../assets/projects/FTM.png';
-import img_trackend from '../../assets/projects/trackend-screenshot.webp';
-import img_memoryGame from '../../assets/projects/memorygameSS.png';
+import img_booklook from '../../assets/projects/booklook.png';
+import img_aroundtown from '../../assets/projects/aroundtown.png';
+import img_ecommerce from '../../assets/projects/ecommerce.jpg';
 
 function Featured() {
         const featured = {
             projects: [
                 {
-                    id: "trackend",
-                    name: "Trackend",
-                    github: "https://github.com/paperpatch/trackend",
-                    deployed: "https://trackend-project.herokuapp.com/",
-                    image: img_trackend,
-                    alt: "Trackend Project",
-                    description: "Issue Tracker Ticketing System with a CMS style. Uses authentication and MVC, Handlebars.js as template, Sequelize as ORM and Express-Session for authentication.",
+                    id: "aroundtown",
+                    name: "AroundTown",
+                    github: "https://github.com/JakMcCarthy/EventsPage.git",
+                    deployed: "https://damp-cove-99714.herokuapp.com/",
+                    image: img_aroundtown,
+                    alt: "AroundTown Project",
+                    description: "Events Tracker with Ticketing System. Uses authentication and MVC, Handlebars.js as template, Sequelize as ORM and Express-Session for authentication.",
                     skills: "Bootstrap-Table | Handlebars |Sequelize | MySQL | Express | API | Heroku"
                 },
                 {
-                    id: "followTheMoney",
-                    name: "Follow The Money",
-                    github: "https://github.com/Adamcalcasola/follow-the-money",
-                    deployed: "https://adamcalcasola.github.io/follow-the-money/",
-                    image: img_ftm,
-                    alt: "Follow The Money project" ,
-                    description: "Search by memeber of congress to see how they vote and where their campaign contributions come from. Simple and fast." ,
+                    id: "booklook",
+                    name: "BookLook",
+                    github: "https://github.com/JakMcCarthy/BookLook.git",
+                    deployed: "https://buhkluhk.herokuapp.com/",
+                    image: img_booklook,
+                    alt: "BookLook Search Engine" ,
+                    description: "Search by book title, author, or genre. Simple and fast." ,
                     skills: "Bulma | JavaScript | CSS | jQuery | API",
                 },
                 {
                     id: "memoryGame",
                     name: 'Memory Game',
-                    github: 'https://github.com/davezer/memoryGame' ,
-                    deployed: 'https://davezer.github.io/memoryGame/',
-                    image: img_memoryGame,
-                    alt: "memory game",
-                    description: 'A simple memory test game built using JS, CSS and HTML',
-                    skills: "JS | CSS | HTML | Bootstrap",
+                    github: 'https://github.com/JakMcCarthy/Ecommerce-BackEnd' ,
+                    deployed: 'https://bckendcommrce.herokuapp.com/',
+                    InsomniaDemo: 'https://drive.google.com/file/d/1xJNYvI-nlYTEhkP6jlFfzdzt5QD2YQPs/view',
+                    image: img_ecommerce,
+                    alt: "e-commerce",
+                    description: 'A simple e-commerce backend model',
+                    skills: "JS | CSS | HTML | Express | MySQL | GraphQL",
                 },
-                // {
-                //     id: ,
-                //     name: ,
-                //     github: ,
-                //     deployed: ,
-                //     // image: ,
-                //     alt: ,
-                //     description: ,
-                //     skills: ,
-                // },
 
             ]
         }
