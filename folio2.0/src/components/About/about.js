@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
 import Typed from 'react-typed';
-import profileImage from '../../assets/images/PORTFOLIO_2.0/src/assets/images/DSC_0682 - Copy.jpg';
+import profileImage from '../../assets/images/DSC_0682 - Copy.jpg';
 
 function About() {
     return(
@@ -9,9 +9,9 @@ function About() {
         <section id="about" className="about">
             <Container className='row upper-container'> 
                 <div className="image-container">
-                    <img className="col-lg-6 col-md-12 m-auto profile-pic" src={profileImage} alt="Jak McCarthy" />
+                    <img className="col-lg-6 col-md-12 m-auto profile-pic" src={profileImage} alt="Jackson McCarthy" />
                     <h1 className="intro-title">Hello, I'm</h1>
-                    <h1 className="intro-name">Jak McCarthy</h1>
+                    <h1 className="intro-name">Jackson McCarthy</h1>
                 </div>
                 <div className='text-slider-div'>
                     <span className="intro-text-slider">
@@ -30,7 +30,7 @@ function About() {
                 <div className="row">
                     <div className="about-description col-lg-6 col-md-12">
                         <p>
-                            I'm a Full Stack Developer based out of Central CT. 
+                            I am a Full Stack Developer based out of Central CT. 
                         </p>
                         <p>
                             Since I was young I've always been fascinated with programming and techology.

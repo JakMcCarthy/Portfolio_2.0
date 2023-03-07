@@ -107,10 +107,10 @@ function Resume() {
       
       
           
-          <h1 className="resume">RESUME</h1>
+          <h1 className="resume">Résumé</h1>
           <div className='resume-btn-div'>
             <Button className="resume-btn" onClick={handleShow}>
-              Open Resume
+              Open Résumé
             </Button>
           </div>
             <Modal

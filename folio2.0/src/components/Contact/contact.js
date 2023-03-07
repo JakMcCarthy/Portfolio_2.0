@@ -12,7 +12,7 @@ function Contact() {
     function sendEmail(e) {
         e.preventDefault();
     
-        emailjs.sendForm('service_en5crys', 'template_dave', form.current, 'user_vNCUuzNUmVUXadQmB3VM4')
+        emailjs.sendForm('service_en5crys', 'jackson.mcc23@gmail.com', form.current, '')
           .then((result) => {
             console.log(result.text);
           }, (error) => {
@@ -47,7 +47,7 @@ function Contact() {
         <section id="contact">
           <div className="contacts">
             <h1 className="title">Contact Me</h1>
-            <p>Feel free to contact me! I'm always available!</p>
+            <p>Feel free to contact me!</p>
             
           
             <form className="form" ref={form} onSubmit={sendEmail}>

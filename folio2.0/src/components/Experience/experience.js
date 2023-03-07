@@ -40,14 +40,14 @@ function Experience() {
                 iconStyle={{ background: '#BE7220', color: '#fff' }}
                 icon={<i class="fa-solid fa-briefcase work-icons2"></i>}
             >
-                <h3 className="vertical-timeline-element-title">USPS</h3>
-                <h4 className="vertical-timeline-element-subtitle">New Haven, CT</h4>
+                <h3 className="vertical-timeline-element-title">Artisan Plaster & Restoration</h3>
+                <h4 className="vertical-timeline-element-subtitle">New Britain, CT</h4>
                 <ul>
                 <li>
-                    <p>Daily sorting of letters, parcels and periodicals in route order</p>
+                    <p>Worked as plaster laborer and jobsite materials and scaffolding manager</p>
                 </li>
                 <li>
-                    <p>Accurately delivering mail to 500+ clients daily</p>
+                    <p>Organizing and orienting jobsite setup and clean up at beginning and end of jobs around the New England, New York area.</p>
                 </li>
                 </ul>
             </VerticalTimelineElement>

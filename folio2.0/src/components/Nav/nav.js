@@ -4,11 +4,11 @@ import { Navbar, Nav, Container } from 'react-bootstrap'
 
 
 function Navigation (props) {
-  const tabs = ['About', 'Experience', 'Projects', 'Contact', 'Resume'];
+  const tabs = ['About', 'Experience', 'Projects', 'Contact', 'Résumé'];
   return (
     <Navbar className="navbar sticky-top" id="navbar" bg="" expand="md">
       <Container className="brand-con">
-        <Navbar.Brand className ="brand" href="./index.html"><i class="fa-solid fa-d">ave</i></Navbar.Brand>
+        <Navbar.Brand className ="brand" href="./index.html"><i class="fa-solid fa-d">Jackson</i></Navbar.Brand>
       </Container>
       <Container>  
         <Nav className="nav-links">

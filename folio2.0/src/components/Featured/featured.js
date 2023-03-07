@@ -27,8 +27,8 @@ function Featured() {
                     skills: "Bulma | JavaScript | CSS | jQuery | API",
                 },
                 {
-                    id: "memoryGame",
-                    name: 'Memory Game',
+                    id: "e-commerce",
+                    name: 'E-Commerce',
                     github: 'https://github.com/JakMcCarthy/Ecommerce-BackEnd' ,
                     deployed: 'https://bckendcommrce.herokuapp.com/',
                     InsomniaDemo: 'https://drive.google.com/file/d/1xJNYvI-nlYTEhkP6jlFfzdzt5QD2YQPs/view',
