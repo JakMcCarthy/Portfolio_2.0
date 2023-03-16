@@ -9,7 +9,7 @@ import './App.css';
 
 
 
-import Footer from './components/Footer/footer';
+// import Footer from './components/Footer/footer';
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
         <Header></Header>
       </div>
       <div>
-        <Footer></Footer>
+        {/* <Footer></Footer> */}
       </div>  
     </>    
   );
