@@ -3,6 +3,8 @@ import emailjs from '@emailjs/browser';
 
 import { validateEmail } from '../../utils/helpers';
 
+
+
 function Contact() {
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
     const [errorMessage, setErrorMessage] = useState('');
@@ -11,8 +13,8 @@ function Contact() {
     
     function sendEmail(e) {
         e.preventDefault();
-    
-        emailjs.sendForm('service_en5crys', 'jackson.mcc23@gmail.com', form.current, '')
+
+        emailjs.sendForm('service_qappb1f', 'contact_form', form.current, 'P6QM1NemG7bKSVRlD')
           .then((result) => {
             console.log(result.text);
           }, (error) => {

@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from './components/Header/index';
+import Footer from './components/Footer/footer'
 
 // import libraries
 import './assets/libraries/bootstrap.css';
@@ -18,7 +19,7 @@ function App() {
         <Header></Header>
       </div>
       <div>
-        {/* <Footer></Footer> */}
+        <Footer></Footer>
       </div>  
     </>    
   );
