@@ -34,10 +34,10 @@ function About() {
                         </p>
                         <p>
                             Since I was young I've always been fascinated with programming and techology.
-                            At the start of the pandemic I made a huge life decision to leave my full time career and switch paths to focus on coding. I recently received my certificate of Coding from the Uconn Full Stack Bootcamp.
+                            At the start of the pandemic I made a huge life decision to leave my full time career and switch paths to focus on coding. I recently received my certification as a full-stack MERN Web Developer from the UCONN School of Engineering .
                         </p>
                         <p>
-                            My other pursuits have always included a life long occupation with mathematics and it's implementation in order to create and discover unique and fascinating things. 
+                            My other pursuits have always included a life long occupation with mathematics and it's implementation in order to create and discover unique and fascinating truths. 
                         </p>
                     </div>
                 </div>
